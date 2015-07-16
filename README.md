@@ -1,15 +1,14 @@
 # EuropassJS
 
 An automatic tool to generate a PDF Curriculum Vitae (CV) 
-from an Europass CV in XML format
-via Europass REST API (http://interop.europass.cedefop.europa.eu/web-services/rest-api-reference/#xml-to-json).
+from an Europass CV in XML format.
 
 
 
 ## How it works
 
 1. Personal data are saved as Europass CV in XML format
-2. Europass CV in XML format is converted to in Europass CV in JSON format.
+2. Europass CV in XML format is converted to in Europass CV in JSON format via Europass REST API (http://interop.europass.cedefop.europa.eu/web-services/rest-api-reference/#xml-to-json).
 3. HTML is generated from the Europass CV in JSON format using mustache templates.
 4. Finally, the hTML output is rendered as PDF using wkhtmltopdf 0.9.9 
 
