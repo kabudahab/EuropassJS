@@ -1,0 +1,43 @@
+
+/* Printable style overrides */
+	
+  html,
+  body, 
+  .cv, 
+  .identification {
+    background-color: transparent;
+  }
+  
+  .page-break {
+    page-break-after: always;
+    page-break-before: always;
+  }
+  
+  .cv {
+    width: 100%;
+    max-width: none;
+    margin: 0px;
+  }
+  
+  .experience {
+    padding: 0 10px;
+  }
+  
+  .skills ul {
+    -padding-right: 5em;
+  }
+  
+  ul.rated-skills .rating .off {
+    color: #eeeeee;
+  }
+  
+  .skills.advanced ul.rated-skills .rating {
+    -margin-right: 64px;
+  }
+
+  .page {
+    height: 1353px;
+    -border: 1px solid #000000;
+  }
+
+  

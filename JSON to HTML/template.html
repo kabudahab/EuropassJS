@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{SkillsPassport.LearnerInfo.Identification.PersonName.FirstName}} {{SkillsPassport.LearnerInfo.Identification.PersonName.Surname}} - Curriculum Vitae</title>
+
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="The Curriculum Vitae of {{SkillsPassport.LearnerInfo.Identification.PersonName.FirstName}} {{SkillsPassport.LearnerInfo.Identification.PersonName.Surname}}." />
+    <meta charset="UTF-8" /> 
+
+    <link type="text/css" rel="stylesheet" href="screen.css" />  
+    <link type="text/css" rel="stylesheet" href="print.css" media="print" />
+        
+    <link type="text/css" rel="stylesheet" href="fonts.css" />  
+    <link type="text/css" rel="stylesheet" href="fonts-entypo-fontello.css" />
+    <!--
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css' />
+    -->
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script src="jquery-2.1.0.js" type="text/javascript"></script>
+     
+  </head>
+
+  <body>
+
+    <div class="cv">
+
+      <div class="page">
+    
+        <div class="identification">
+        
+          <div class="photo">
+            <img src="data:{{SkillsPassport.LearnerInfo.Identification.Photo.MimeType}};base64,{{SkillsPassport.LearnerInfo.Identification.Photo.Data}}" alt="face photo" />
+          </div>
+
+          <div class="person-name">
+            <h1 class="quickFade delayTwo">{{SkillsPassport.LearnerInfo.Identification.PersonName.FirstName}} {{SkillsPassport.LearnerInfo.Identification.PersonName.Surname}}</h1>
+            <h2 class="quickFade delayThree">{{SkillsPassport.LearnerInfo.Headline.Description.Label}}</h2>
+          </div>
+          
+          <div class="qr-code"></div>
+
+          <div class="contact-info">
+            {{#SkillsPassport.LearnerInfo.Identification}}
+            <ul>
+              {{#ContactInfo}}
+              <li class="email-address">
+                <span class="entypo entypo-mail"></span>: 
+                <a href="mailto:{{Email.Contact}}" target="_blank">
+                  {{Email.Contact}}
+                </a>
+              </li>
+              <li class="telephone">
+                <span class="entypo entypo-phone"></span>: 
+                {{#Telephone}}{{Contact}} {{/Telephone}}
+              </li>
+              <li class="postal-address">
+                <span class="entypo entypo-location"></span>: 
+                {{#Address.Contact}}
+                  <!--{{AddressLine}}{{#AddressLine}}, {{/AddressLine}}-->
+                  {{Municipality}}{{#Municipality}}, {{/Municipality}}
+                  <!--{{#PostalCode}}{{PostalCode}},{{/PostalCode}}-->
+                  {{Country.Label}}              
+                {{/Address.Contact}}
+              </li>
+              {{/ContactInfo}}
+              <li class="birth-date">
+                <span class="entypo entypo-calendar"></span>: 
+                born in {{#Demographics.Birthdate}}{{Month}}/{{Year}}{{/Demographics.Birthdate}}
+              </li>
+            </ul>
+            {{/SkillsPassport.LearnerInfo.Identification}}
+          </div>
+          
+          <div class="clear"></div>
+        </div>
+        
+        <section class="motivation-statement">
+          <div class="title">
+            <h1>
+              <span class="entypo entypo-user"></span>               
+              <!--Personal Profile-->
+              Motivational Statement
+            </h1>
+          </div>
+          <div class="content" style="">
+            <article>
+              <ul>
+                <li>
+                  Item 1.
+                </li>
+                <li>
+                  Item 2.
+                </li>
+                <li>
+                  Item 3.
+                </li>
+              </ul>
+            </article>
+          </div>
+          <div class="clear"></div>
+        </section>
+                
+        <section class="work-experience">
+          <div class="title">
+            <h1>
+              <span class="entypo entypo-briefcase"></span> 
+              Professional Experience
+            </h1>
+          </div>
+          
+          <div class="content">
+            {{#SkillsPassport.LearnerInfo.WorkExperience}}
+            <article data-title="{{Position.Label}}" data-perid="{{Period.From.Month}}/{{Period.From.Year}}">
+              <h2>
+                {{Position.Label}}
+                <strong>
+                  {{Period.From.Month}}/{{Period.From.Year}}
+                  &#8212;
+                  {{#Period.Current}}PRESENT{{/Period.Current}}{{^Period.Current}}{{Period.To.Month}}/{{Period.To.Year}}{{/Period.Current}}
+                </strong>
+              </h2>
+              {{#Employer}}
+              <h3>
+                {{Employer.Name}}, 
+                {{#Employer.ContactInfo.Address}}
+                  {{#Contact.AddressLine}}{{Contact.AddressLine}},{{/Contact.AddressLine}} 
+                  {{#Contact.Municipality}}{{Contact.Municipality}},{{/Contact.Municipality}} 
+                  {{#Contact.PostalCode}}{{Contact.PostalCode}},{{/Contact.PostalCode}}
+                  {{Contact.Country.Label}}
+                {{/Employer.ContactInfo.Address}}
+                <!--
+                {{#Employer.ContactInfo.Website}}
+                  <a href="{{Contact}}" target="_blank">{{Contact}}</a>
+                {{/Employer.ContactInfo.Website}}
+                -->
+              </h3>
+              {{/Employer}}
+              {{{Activities}}}
+            </article>
+            {{/SkillsPassport.LearnerInfo.WorkExperience}}
+          </div>
+          
+          <div class="clear"></div>
+        </section>
+          
+        <section class="projects">
+          <div class="title">
+            <h1>
+              <span class="entypo entypo-folder"></span> 
+              Research Projects
+            </h1>
+          </div>
+          
+          <div class="content">
+            {{#SkillsPassport.LearnerInfo.Achievement}}
+            {{#projects}}
+            <ul class="article-list">
+              {{{Description}}}
+            </ul>
+            {{/projects}}
+            {{/SkillsPassport.LearnerInfo.Achievement}}
+          </div>
+          
+          <div class="clear"></div>
+        </section>
+                
+        <section class="publications">
+          <div class="title">
+            <h1>
+              <span class="entypo entypo-book"></span> 
+              Publications
+            </h1>
+          </div>
+          
+          <div class="content">
+            {{#SkillsPassport.LearnerInfo.Achievement}}
+                        <ul class="article-list">
+            {{#publications}}
+            {{{Description}}}
+            {{/publications}}
+                        </ul>
+            {{/SkillsPassport.LearnerInfo.Achievement}}
+          </div>
+          
+          <div class="clear"></div>
+        </section>
+
+      </div>
+
+      <div class="page">
+                        
+        <section class="awards">
+          <div class="title">
+            <h1>
+              <span class="entypo entypo-trophy"></span> 
+              Honours and awards
+            </h1>
+          </div>
+          
+          <div class="content">
+            {{#SkillsPassport.LearnerInfo.Achievement}}
+                        <ul class="article-list">
+            {{#honors_awards}}
+            {{{Description}}}
+            {{/honors_awards}}
+                        </ul>
+            {{/SkillsPassport.LearnerInfo.Achievement}}
+          </div>
+          
+          <div class="clear"></div>
+        </section>
+                        
+        <section class="education">
+          <div class="title">
+            <h1>
+              <span class="entypo entypo-graduation-cap"></span> 
+              Education
+            </h1>
+          </div>
+          
+          <div class="content">
+            {{#SkillsPassport.LearnerInfo.Education}}
+            <article data-title="{{Title}}" data-period="{{Period.From.Month}}/{{Period.From.Year}}">
+              <h2>
+                {{Title}}
+                <strong>
+                  {{Period.From.Month}}/{{Period.From.Year}} 
+                  &#8212; 
+                  {{#Period.Current}}PRESENT{{/Period.Current}}{{^Period.Current}}{{Period.To.Month}}/{{Period.To.Year}}{{/Period.Current}}
+                </strong>
+              </h2>
+              <h3>
+                {{Organisation.Name}}, 
+                {{#Organisation.ContactInfo.Address.Contact.AddressLine}}{{Organisation.ContactInfo.Address.Contact.AddressLine}},{{/Organisation.ContactInfo.Address.Contact.AddressLine}} 
+                {{#Organisation.ContactInfo.Address.Contact.Municipality}}{{Organisation.ContactInfo.Address.Contact.Municipality}},{{/Organisation.ContactInfo.Address.Contact.Municipality}} 
+                {{#Organisation.ContactInfo.Address.Contact.PostalCode}}{{Organisation.ContactInfo.Address.Contact.PostalCode}},{{/Organisation.ContactInfo.Address.Contact.PostalCode}}
+                {{Organisation.ContactInfo.Address.Contact.Country.Label}}
+              </h3>
+              <p>{{{Activities}}}</p>
+            </article>
+            {{/SkillsPassport.LearnerInfo.Education}}
+          </div>
+          
+          <div class="clear"></div>
+        </section>
+      
+        <section class="skills advanced">
+          <div class="title">
+            <h1>
+              <span class="entypo entypo-tools"></span> 
+              My skills
+            </h1>
+          </div>
+          
+          <div class="content" data-columns>
+            {{#Skills}}
+                {{#Visible}}
+                <article data-title="{{Title}}">
+                    <h2>{{Title}}</h2>
+                    <ul class="rated-skills">
+                    {{#List}}
+                        {{#Name}}
+                        <li>
+                            {{Name}} <span class="rating">{{#renderSkillsScore}}{{Score}}{{/renderSkillsScore}}</span>
+                        </li>
+                        {{/Name}}
+                    {{/List}}
+                    </ul>
+                </article>
+                {{/Visible}}
+            {{/Skills}}
+
+          </div>
+          
+          <div class="clear"></div>
+        </section>
+
+      </div>
+    
+    </div>
+
+    <script>
+      $(function(){
+
+        $("article, .article-list > li").addClass( "article" );
+
+        $(".article h2, .article .h2").addClass( "article-title" );
+        $(".article h3, .article .h3").addClass( "article-subtitle" );
+
+        $(".article").each(function(){
+          var $el = $(this);
+          if( $el.has( "p, ul" ).length ) {
+            $el.addClass( "article-full" );
+          }
+          else {
+            $el.addClass( "article-mini" );
+          }
+        });
+
+      });
+    </script>
+    
+    <script src="salvattore.js"></script>
+      
+  </body>
+  
+</html>
+
