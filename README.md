@@ -1,6 +1,6 @@
 # EuropassJS
 
-An automatic tool to generate a PDF Curriculum Vitae (CV) from an Europass CV in XML format.
+A tool to generate a PDF Curriculum Vitae (CV) from an Europass CV in XML format.
 
 
 
@@ -14,7 +14,7 @@ An automatic tool to generate a PDF Curriculum Vitae (CV) from an Europass CV in
 
 
 ## Requirements
-
+* Linux (tested on Ubuntu).
 * cURL (http://curl.haxx.se/).
 * Node.js (https://nodejs.org/).
 * Wkhtmltopdf version 0.9.9 (http://wkhtmltopdf.org/).
@@ -23,15 +23,15 @@ An automatic tool to generate a PDF Curriculum Vitae (CV) from an Europass CV in
 
 ## Installation
 
-* Install cURL
+1 Install cURL
 ```bash
 sudo apt-get curl
 ```
-* Install Node.js
+2 Install Node.js
 ```bash
 sudo apt-get nodejs
 ```
-* Install Wkhtmltopdf
+3 Install Wkhtmltopdf
 ```bash
 sudo apt-get wkhtmltopdf
 ```
