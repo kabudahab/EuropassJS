@@ -1,0 +1,435 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SkillsPassport xmlns="http://europass.cedefop.europa.eu/Europass" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://europass.cedefop.europa.eu/Europass http://europass.cedefop.europa.eu/xml/EuropassSchema_V3.0-rc7.xsd" locale="en">
+  <DocumentInfo>
+    <DocumentType>ECV</DocumentType>
+    <CreationDate>2013-02-07T14:27:27.982Z</CreationDate>
+    <LastUpdateDate>2013-02-07T14:27:27.982Z</LastUpdateDate>
+    <XSDVersion>V3.0</XSDVersion>
+    <Generator>EWA</Generator>
+    <Comment>Europass CV</Comment>
+  </DocumentInfo>
+  <PrintingPreferences>
+    <Document type="ECV">
+      <Field name="LearnerInfo" show="true" order="Identification Headline WorkExperience Education Skills Achievement ReferenceTo" />
+      <Field name="LearnerInfo.Identification" show="true" />
+      <Field name="LearnerInfo.Identification.PersonName" show="true" order="FirstName Surname" />
+      <Field name="LearnerInfo.Identification.ContactInfo.Address" show="true" format="s, z m c" />
+      <Field name="LearnerInfo.Identification.ContactInfo.Email" show="true" />
+      <Field name="LearnerInfo.Identification.ContactInfo.Telephone" show="true" />
+      <Field name="LearnerInfo.Identification.ContactInfo.Telephone[0]" show="true" />
+      <Field name="LearnerInfo.Identification.ContactInfo.Telephone[1]" show="true" />
+      <Field name="LearnerInfo.Identification.ContactInfo.Website" show="false" />
+      <Field name="LearnerInfo.Identification.ContactInfo.Website[0]" show="false" />
+      <Field name="LearnerInfo.Identification.ContactInfo.InstantMessaging" show="true" />
+      <Field name="LearnerInfo.Identification.ContactInfo.InstantMessaging[0]" show="true" />
+      <Field name="LearnerInfo.Identification.Demographics.Birthdate" show="false" format="text/long" />
+      <Field name="LearnerInfo.Identification.Demographics.Gender" show="false" />
+      <Field name="LearnerInfo.Identification.Demographics.Nationality" show="true" />
+      <Field name="LearnerInfo.Identification.Demographics.Nationality[0]" show="true" />
+      <Field name="LearnerInfo.Identification.Photo" show="false" />
+      <Field name="LearnerInfo.Headline" show="true" />
+      <Field name="LearnerInfo.WorkExperience" show="true" />
+      <Field name="LearnerInfo.WorkExperience[0]" show="true" />
+      <Field name="LearnerInfo.WorkExperience[0].Period" show="true" format="text/long" />
+      <Field name="LearnerInfo.WorkExperience[0].ReferenceTo" show="false" />
+      <Field name="LearnerInfo.WorkExperience[0].ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.WorkExperience[0].Position" show="true" />
+      <Field name="LearnerInfo.WorkExperience[0].Activities" show="true" />
+      <Field name="LearnerInfo.WorkExperience[0].Employer" show="true" />
+      <Field name="LearnerInfo.WorkExperience[0].Employer.ContactInfo.Address" show="false" />
+      <Field name="LearnerInfo.WorkExperience[0].Employer.ContactInfo.Website" show="false" />
+      <Field name="LearnerInfo.WorkExperience[0].Employer.Sector" show="false" />
+      <Field name="LearnerInfo.Education" show="true" />
+      <Field name="LearnerInfo.Education[0]" show="true" />
+      <Field name="LearnerInfo.Education[0].Period" show="true" format="text/long" />
+      <Field name="LearnerInfo.Education[0].ReferenceTo" show="false" />
+      <Field name="LearnerInfo.Education[0].ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.Education[0].Title" show="true" />
+      <Field name="LearnerInfo.Education[0].Activities" show="true" />
+      <Field name="LearnerInfo.Education[0].Organisation" show="true" />
+      <Field name="LearnerInfo.Education[0].Organisation.ContactInfo.Address" show="false" />
+      <Field name="LearnerInfo.Education[0].Level" show="false" />
+      <Field name="LearnerInfo.Education[0].Field" show="false" />
+      <Field name="LearnerInfo.Skills" show="true" />
+      <Field name="LearnerInfo.Skills.Linguistic.MotherTongue" show="true" />
+      <Field name="LearnerInfo.Skills.Linguistic.MotherTongue[0]" show="true" />
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage" show="true" />
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0]" show="true" />
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].ReferenceTo" show="false" />
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate" show="false" />
+      <Field name="LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate[0]" show="false" />
+      <Field name="LearnerInfo.Skills.Communication" show="true" />
+      <Field name="LearnerInfo.Skills.Communication.ReferenceTo" show="false" />
+      <Field name="LearnerInfo.Skills.Communication.ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.Skills.Organisational" show="true" />
+      <Field name="LearnerInfo.Skills.Organisational.ReferenceTo" show="false" />
+      <Field name="LearnerInfo.Skills.Organisational.ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.Skills.JobRelated" show="true" />
+      <Field name="LearnerInfo.Skills.JobRelated.ReferenceTo" show="false" />
+      <Field name="LearnerInfo.Skills.JobRelated.ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.Skills.Computer" show="false" />
+      <Field name="LearnerInfo.Skills.Computer.ReferenceTo" show="false" />
+      <Field name="LearnerInfo.Skills.Computer.ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.Skills.Driving" show="true" />
+      <Field name="LearnerInfo.Skills.Driving.ReferenceTo" show="false" />
+      <Field name="LearnerInfo.Skills.Driving.ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.Skills.Other" show="true" />
+      <Field name="LearnerInfo.Skills.Other.ReferenceTo" show="false" />
+      <Field name="LearnerInfo.Skills.Other.ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.Achievement" show="false" />
+      <Field name="LearnerInfo.Achievement[0]" show="false" />
+      <Field name="LearnerInfo.Achievement[0].ReferenceTo" show="false" />
+      <Field name="LearnerInfo.Achievement[0].ReferenceTo[0]" show="false" />
+      <Field name="LearnerInfo.ReferenceTo" show="false" />
+      <Field name="LearnerInfo.ReferenceTo[0]" show="false" />
+    </Document>
+  </PrintingPreferences>
+  <LearnerInfo>
+    <Identification>
+      <PersonName>
+        <FirstName>Edmond</FirstName>
+        <Surname>Walshe</Surname>
+      </PersonName>
+      <ContactInfo>
+        <Address>
+          <Contact>
+            <AddressLine>12 Strawberry Hill</AddressLine>
+            <Municipality>Dublin 8</Municipality>
+            <Country>
+              <Code>IE</Code>
+              <Label>Éire/Ireland</Label>
+            </Country>
+          </Contact>
+        </Address>
+        <Email>
+          <Contact>ewalshe@hotmail.com</Contact>
+        </Email>
+        <TelephoneList>
+          <Telephone>
+            <Contact>+353 12341111</Contact>
+            <Use>
+              <Code>work</Code>
+              <Label>Work</Label>
+            </Use>
+          </Telephone>
+          <Telephone>
+            <Contact>+353 12341112</Contact>
+            <Use>
+              <Code>mobile</Code>
+              <Label>Mobile</Label>
+            </Use>
+          </Telephone>
+        </TelephoneList>
+        <InstantMessagingList>
+          <InstantMessaging>
+            <Contact>edmond.walshe</Contact>
+            <Use>
+              <Code>yahoo</Code>
+              <Label>Yahoo! Messenger (YIM)</Label>
+            </Use>
+          </InstantMessaging>
+        </InstantMessagingList>
+      </ContactInfo>
+      <Demographics>
+        <NationalityList>
+          <Nationality>
+            <Code>IE</Code>
+            <Label>Irish</Label>
+          </Nationality>
+        </NationalityList>
+      </Demographics>
+      <Photo>
+        <MimeType>image/jpeg</MimeType>
+        <Data>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</Data>
+        <MetadataList>
+          <Metadata key="dimension" value="997x1152" />
+          <Metadata key="number-of-pages" value="1" />
+        </MetadataList>
+      </Photo>
+    </Identification>
+    <Headline>
+      <Type>
+        <Code>job_applied_for</Code>
+        <Label>JOB APPLIED FOR</Label>
+      </Type>
+      <Description>
+        <Code>71370</Code>
+        <Label>Building electrician</Label>
+      </Description>
+    </Headline>
+    <WorkExperienceList>
+      <WorkExperience>
+        <Period>
+          <From year="1996" month="--10" />
+          <To year="1996" />
+          <Current>true</Current>
+        </Period>
+        <Position>
+          <Code>71370</Code>
+          <Label>Building electrician</Label>
+        </Position>
+        <Activities>Senior Electrical Technician of a ten person team</Activities>
+        <Employer>
+          <Name>Walshe Electrical Ltd, 40 Harold’s Cross Park, Harold’s Cross, Dublin 6.</Name>
+        </Employer>
+      </WorkExperience>
+    </WorkExperienceList>
+    <EducationList>
+      <Education>
+        <Period>
+          <From year="1995" month="--09" />
+          <To year="1997" month="--09" />
+          <Current>false</Current>
+        </Period>
+        <Title>Advanced Certificate Craft - Electrical Instrumentation</Title>
+        <Activities>- comply with national building regulations, national electrical installation rules and with national legislation related to occupational health, safety and the environment.&lt;br/&gt;- interpret electrical equipment manufacturers' specifications and drawings to determine correct installation, maintenance, test and repair procedures&lt;br/&gt;- interpret project plans, specifications and drawings to determine the location, types and quantities of&lt;br/&gt;materials required to install electrical wiring systems, equipment, controls and protective devices&lt;br/&gt;- plan the sequence of operations, select and use materials, hand and power tools and work techniques that are appropriate to a range of electrical installation and maintenance projects&lt;br/&gt;- use test instruments to locate malfunctions in electrical and electromechanical systems and equipment&lt;br/&gt;- work alone or as part of a team to ensure that project deadlines are met</Activities>
+        <Organisation>
+          <Name>FÁS, Middle Abbey Street, Dublin 1</Name>
+        </Organisation>
+      </Education>
+    </EducationList>
+    <Skills>
+      <Linguistic>
+        <MotherTongueList>
+          <MotherTongue>
+            <Description>
+              <Code>en</Code>
+              <Label>English</Label>
+            </Description>
+          </MotherTongue>
+        </MotherTongueList>
+        <ForeignLanguageList>
+          <ForeignLanguage>
+            <Description>
+              <Code>fr</Code>
+              <Label>French</Label>
+            </Description>
+            <ProficiencyLevel>
+              <Listening>B1</Listening>
+              <Reading>B2</Reading>
+              <SpokenInteraction>B1</SpokenInteraction>
+              <SpokenProduction>B2</SpokenProduction>
+              <Writing>A2</Writing>
+            </ProficiencyLevel>
+          </ForeignLanguage>
+        </ForeignLanguageList>
+      </Linguistic>
+      <Communication>
+        <Description>I have worked in various types of team projects from rewiring newly built estates to electrical maintenance of various corporate businesses.</Description>
+      </Communication>
+      <Organisational>
+        <Description>I am a senior electrician which also involves organising teams to carry out various work projects.</Description>
+      </Organisational>
+      <JobRelated>
+        <Description>- knowledge of ETCI regulations governing temporary installations.&lt;br/&gt;- much experience in installing motor control circuit wiring, relays, overload units, protective devices and push button indicators.</Description>
+      </JobRelated>
+      <Driving>
+        <Description>
+          <Licence>B</Licence>
+        </Description>
+      </Driving>
+      <Other>
+        <Description>- Certificate in Project Management&lt;br/&gt;- Certificate in First Aid</Description>
+      </Other>
+    </Skills>
+    <AchievementList>    
+      <Achievement>
+        <Title>
+          <Code>projects</Code>
+          <Label>Projects</Label>
+        </Title>
+        <Description>
+          &lt;li class="article"&gt;
+            &lt;p class="h2"&gt;
+              Project Name
+              &lt;strong&gt;
+                1/2000 &#8212; 12/2012
+              &lt;/strong&gt;
+            &lt;/p&gt;
+            &lt;p class="h3"&gt;
+              Street Name, 
+              London,
+              United Kingdom
+            &lt;/p&gt;
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;strong&gt;Team Size&lt;/strong&gt;: 50
+              &lt;/li&gt;
+              &lt;li&gt;
+                comply with national building regulations, national electrical installation rules and with national legislation related to occupational health, safety and the environment.
+              &lt;/li&gt;
+              &lt;li&gt;
+                interpret project plans, specifications and drawings to determine the location, types and quantities of materials required to install electrical wiring systems, equipment, controls and protective devices.
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          
+          &lt;li class="article"&gt;
+            &lt;p class="h2"&gt;
+              Project Name
+              &lt;strong&gt;
+                1/2000 &#8212; 12/2012
+              &lt;/strong&gt;
+            &lt;/p&gt;
+            &lt;p class="h3"&gt;
+              Street Name, 
+              London,
+              United Kingdom
+            &lt;/p&gt;
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;strong&gt;Team Size&lt;/strong&gt;: 50
+              &lt;/li&gt;
+              &lt;li&gt;
+                comply with national building regulations, national electrical installation rules and with national legislation related to occupational health, safety and the environment.
+              &lt;/li&gt;
+              &lt;li&gt;
+                interpret project plans, specifications and drawings to determine the location, types and quantities of materials required to install electrical wiring systems, equipment, controls and protective devices.
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          
+          &lt;li class="article"&gt;
+            &lt;p class="h2"&gt;
+              Project Name
+              &lt;strong&gt;
+                1/2000 &#8212; 12/2012
+              &lt;/strong&gt;
+            &lt;/p&gt;
+            &lt;p class="h3"&gt;
+              Street Name, 
+              London,
+              United Kingdom
+            &lt;/p&gt;
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;strong&gt;Team Size&lt;/strong&gt;: 50
+              &lt;/li&gt;
+              &lt;li&gt;
+                comply with national building regulations, national electrical installation rules and with national legislation related to occupational health, safety and the environment.
+              &lt;/li&gt;
+              &lt;li&gt;
+                interpret project plans, specifications and drawings to determine the location, types and quantities of materials required to install electrical wiring systems, equipment, controls and protective devices.
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        </Description>
+      </Achievement>
+      <Achievement>
+        <Title>
+          <Code>publications</Code>
+          <Label>Publications</Label>
+        </Title>
+        <Description>
+          &lt;li class="article"&gt;
+            &lt;p class="h2"&gt;
+              Publication Name
+              &lt;strong&gt;
+                1/2000
+              &lt;/strong&gt;
+            &lt;/p&gt;
+            &lt;p class="h3"&gt;
+              Street Name, 
+              London,
+              United Kingdom
+            &lt;/p&gt;
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;strong&gt;Team Size&lt;/strong&gt;: 50
+              &lt;/li&gt;
+              &lt;li&gt;
+                comply with national building regulations, national electrical installation rules and with national legislation related to occupational health, safety and the environment.
+              &lt;/li&gt;
+              &lt;li&gt;
+                interpret project plans, specifications and drawings to determine the location, types and quantities of materials required to install electrical wiring systems, equipment, controls and protective devices.
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;    
+          &lt;li class="article"&gt;
+            &lt;p class="h2"&gt;
+              Publication Name
+              &lt;strong&gt;
+                1/2000
+              &lt;/strong&gt;
+            &lt;/p&gt;
+            &lt;p class="h3"&gt;
+              Street Name, 
+              London,
+              United Kingdom
+            &lt;/p&gt;
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;strong&gt;Team Size&lt;/strong&gt;: 50
+              &lt;/li&gt;
+              &lt;li&gt;
+                comply with national building regulations, national electrical installation rules and with national legislation related to occupational health, safety and the environment.
+              &lt;/li&gt;
+              &lt;li&gt;
+                interpret project plans, specifications and drawings to determine the location, types and quantities of materials required to install electrical wiring systems, equipment, controls and protective devices.
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;    
+        </Description>
+      </Achievement>
+      <Achievement>
+        <Title>
+          <Code>honors_awards</Code>
+          <Label>Honours and awards</Label>
+        </Title>
+        <Description>
+          &lt;li class="article"&gt;
+            &lt;p class="h2"&gt;
+              Award Name
+              &lt;strong&gt;
+                1/2000 &#8212; 12/2012
+              &lt;/strong&gt;
+            &lt;/p&gt;
+            &lt;p class="h3"&gt;
+              Street Name, 
+              London,
+              United Kingdom
+            &lt;/p&gt;
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;strong&gt;Team Size&lt;/strong&gt;: 50
+              &lt;/li&gt;
+              &lt;li&gt;
+                comply with national building regulations, national electrical installation rules and with national legislation related to occupational health, safety and the environment.
+              &lt;/li&gt;
+              &lt;li&gt;
+                interpret project plans, specifications and drawings to determine the location, types and quantities of materials required to install electrical wiring systems, equipment, controls and protective devices.
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li class="article"&gt;
+            &lt;p class="h2"&gt;
+              Award Name
+              &lt;strong&gt;
+                1/2000 &#8212; 12/2012
+              &lt;/strong&gt;
+            &lt;/p&gt;
+            &lt;p class="h3"&gt;
+              Street Name, 
+              London,
+              United Kingdom
+            &lt;/p&gt;
+            &lt;ul&gt;
+              &lt;li&gt;
+                &lt;strong&gt;Team Size&lt;/strong&gt;: 50
+              &lt;/li&gt;
+              &lt;li&gt;
+                comply with national building regulations, national electrical installation rules and with national legislation related to occupational health, safety and the environment.
+              &lt;/li&gt;
+              &lt;li&gt;
+                interpret project plans, specifications and drawings to determine the location, types and quantities of materials required to install electrical wiring systems, equipment, controls and protective devices.
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        </Description>
+      </Achievement>  
+    </AchievementList>  
+  </LearnerInfo>
+</SkillsPassport>

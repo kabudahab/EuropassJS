@@ -1,0 +1,80 @@
+[
+
+  {
+    "Title": "Programming languages",
+    "Visible": true,
+    "List": [
+      {
+        "Name": "C++",
+        "Score": "5"
+      },
+      {
+        "Name": "C",
+        "Score": "4"
+      },
+      {
+        "Name": "Python",
+        "Score": "3"
+      },
+      {
+        "Name": "Perl",
+        "Score": "2"
+      },
+      {
+        "Name": "JavaScript",
+        "Score": "1"
+      }
+    ]
+  },
+
+  {
+    "Title": "Web technologies",
+    "Visible": true,
+    "List": [
+      {
+        "Name": "HTML5",
+        "Score": "5"
+      }, 
+      {
+        "Name": "jQuery",
+        "Score": "4"
+      },
+      {
+        "Name": "CSS3",
+        "Score": "3"
+      },
+      {
+        "Name": "XML",
+        "Score": "2"
+      }
+    ]
+  },
+
+  {
+    "Title": "Add more skills here",
+    "Visible": true,
+    "List": [
+      {
+        "Name": "Excellent",
+        "Score": "5"
+      },
+      {
+        "Name": "Very Good",
+        "Score": "4"
+      },
+      {
+        "Name": "Good",
+        "Score": "3"
+      },
+      {
+        "Name": "OK",
+        "Score": "2"
+      },
+      {
+        "Name": "Beginner",
+        "Score": "1"
+      }
+    ]
+  }
+
+]
