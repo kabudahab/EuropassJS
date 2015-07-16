@@ -1,7 +1,6 @@
 # EuropassJS
 
-An automatic tool to generate a PDF Curriculum Vitae (CV) 
-from an Europass CV in XML format.
+An automatic tool to generate a PDF Curriculum Vitae (CV) from an Europass CV in XML format.
 
 
 
